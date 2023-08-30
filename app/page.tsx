@@ -26,9 +26,9 @@ export default function Home() {
   return (
     <div className="container mx-auto w-full overflow-hidden">
       <div className="flex flex-col p-4 md:p-5">
-        <h1 className="text-xl md:text-3xl justify-center">Einkommenssteuerrechner 2023</h1>
+        <h1 className="justify-center">Einkommenssteuerrechner 2023</h1>
         <br></br>
-        <p className="text-sm md:text-base justify-center">
+        <p className="text-lg md:text-base justify-center">
           Dieser Rechner gibt dir einen groben Anhaltspunkt zu deinen Steuern und Abgaben. Der Rechner geht davon aus, dass du kinderlos und
           über 23 Jahre alt bist. Es wird ein Krankenversicherungssatz ohne Anspruch auf Krankengeld von 15,2% und ein
           Pflegeversicherungssatz mit Zuschlag von gesamt 4,0% zur Berechnung verwendet. Weiter wird angenommen, dass du für deine Rente mit
